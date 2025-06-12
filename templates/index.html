@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Projeto da Prefeitura</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/style.css') }}"
+    />
+  </head>
+  <body>
+    <div class="theme-toggle">
+      <button onclick="alternarTema()">Alternar Tema</button>
+    </div>
+
+    <div class="container">
+      <h1>Projeto da Prefeitura</h1>
+      <div class="upload">
+        <form method="POST" enctype="multipart/form-data">
+          <label for="file">Carregar nova tabela CSV:</label>
+          <input type="file" name="file" accept=".csv" required />
+          <input type="submit" value="Carregar" />
+        </form>
+      </div>
+
+      <form method="POST">
+        <label for="pergunta">Digite sua pergunta:</label>
+        <textarea name="pergunta" rows="3" required>{{ pergunta }}</textarea>
+        <input type="submit" value="Enviar" />
+      </form>
+
+      {% if resposta %}
+      <div class="resposta">
+        <strong>Resposta:</strong>
+        <p>{{ resposta }}</p>
+      </div>
+      {% endif %}
+
+      <h2>Dados da Tabela</h2>
+      <div>{{ tabela_html | safe }}</div>
+    </div>
+
+    <script>
+      function alternarTema() {
+        document.body.classList.toggle("light-theme");
+      }
+    </script>
+  </body>
+</html>

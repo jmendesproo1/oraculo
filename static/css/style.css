@@ -1,0 +1,141 @@
+:root {
+    --bg-color: #1e1e2f;
+    --text-color: #e0e0e0;
+    --container-bg: #2a2a40;
+    --input-bg: #3b3b5b;
+    --primary-color: #4c8cfc;
+    --hover-color: #3671e9;
+    --resposta-bg: #2f3e4e;
+    --table-header-bg: #3b3b5b;
+    --table-row-even: #2e2e44;
+    --table-row-odd: #252538;
+}
+
+.light-theme {
+    --bg-color: #f2f2f2;
+    --text-color: #1e1e2f;
+    --container-bg: #ffffff;
+    --input-bg: #e0e0e0;
+    --primary-color: #4c8cfc;
+    --hover-color: #3671e9;
+    --resposta-bg: #dce6f6;
+    --table-header-bg: #4c8cfc;
+    --table-row-even: #f9f9f9;
+    --table-row-odd: #e9e9e9;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 40px;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    transition: all 0.4s ease;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    padding: 30px;
+    background: var(--container-bg);
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+}
+
+textarea, input[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    background-color: var(--input-bg);
+    color: var(--text-color);
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"] {
+    margin-top: 15px;
+    background-color: var(--primary-color);
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: var(--hover-color);
+}
+
+.resposta {
+    background-color: var(--resposta-bg);
+    padding: 20px;
+    margin-top: 25px;
+    border-left: 5px solid var(--primary-color);
+    border-radius: 8px;
+}
+
+.tabela {
+    margin-top: 30px;
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.tabela th, .tabela td {
+    padding: 12px 15px;
+    text-align: left;
+}
+
+.tabela th {
+    background-color: var(--table-header-bg);
+    color: var(--text-color);
+}
+
+.tabela tr:nth-child(even) {
+    background-color: var(--table-row-even);
+}
+
+.tabela tr:nth-child(odd) {
+    background-color: var(--table-row-odd);
+}
+
+h1, h2, label {
+    color: var(--text-color);
+}
+
+.theme-toggle {
+    margin-bottom: 20px;
+    text-align: right;
+}
+
+.theme-toggle button {
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.theme-toggle button:hover {
+    background-color: var(--hover-color);
+}
+.upload {
+    margin-bottom: 25px;
+    padding: 20px;
+    background-color: var(--container-bg);
+    border-radius: 12px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+.upload input[type="file"] {
+    padding: 10px;
+    margin-top: 8px;
+    background-color: var(--input-bg);
+    color: var(--text-color);
+    border-radius: 8px;
+    border: none;
+    display: block;
+    width: 100%;
+}

@@ -1,0 +1,51 @@
+ID_Sala,Parede_Esquerda,Parede_Direita,Parede_Tras,Parede_Frente,Forro,Piso
+Sala_001,Alvenaria,Alvenaria,Alvenaria,Alvenaria,Gesso,Cerâmica
+Sala_002,Drywall,Drywall,Alvenaria,Alvenaria,Laje,Porcelanato
+Sala_003,Alvenaria,Madeira,Madeira,Alvenaria,Gesso,Vinílico
+Sala_004,Concreto,Concreto,Concreto,Concreto,Laje,Cimento Queimado
+Sala_005,Drywall,Drywall,Drywall,Drywall,Gesso,Cerâmica
+Sala_006,Alvenaria,Alvenaria,Alvenaria,Alvenaria,Gesso,Porcelanato
+Sala_007,Alvenaria,Drywall,Drywall,Alvenaria,Laje,Vinílico
+Sala_008,Madeira,Alvenaria,Madeira,Alvenaria,Gesso,Cerâmica
+Sala_009,Concreto,Concreto,Alvenaria,Alvenaria,Laje,Cimento Queimado
+Sala_010,Drywall,Alvenaria,Drywall,Alvenaria,Gesso,Porcelanato
+Sala_011,Alvenaria,Alvenaria,Alvenaria,Madeira,Gesso,Vinílico
+Sala_012,Alvenaria,Alvenaria,Concreto,Concreto,Laje,Cimento Queimado
+Sala_013,Madeira,Drywall,Drywall,Alvenaria,Gesso,Cerâmica
+Sala_014,Drywall,Drywall,Alvenaria,Drywall,Gesso,Porcelanato
+Sala_015,Concreto,Alvenaria,Alvenaria,Alvenaria,Laje,Vinílico
+Sala_016,Alvenaria,Alvenaria,Alvenaria,Alvenaria,Gesso,Cerâmica
+Sala_017,Madeira,Alvenaria,Madeira,Drywall,Laje,Porcelanato
+Sala_018,Drywall,Alvenaria,Drywall,Concreto,Gesso,Vinílico
+Sala_019,Alvenaria,Alvenaria,Drywall,Drywall,Gesso,Cimento Queimado
+Sala_020,Concreto,Concreto,Concreto,Concreto,Laje,Porcelanato
+Sala_021,Alvenaria,Alvenaria,Madeira,Alvenaria,Gesso,Cerâmica
+Sala_022,Drywall,Drywall,Drywall,Drywall,Gesso,Vinílico
+Sala_023,Concreto,Alvenaria,Alvenaria,Drywall,Laje,Porcelanato
+Sala_024,Alvenaria,Alvenaria,Alvenaria,Alvenaria,Gesso,Cimento Queimado
+Sala_025,Drywall,Madeira,Drywall,Alvenaria,Gesso,Cerâmica
+Sala_026,Concreto,Concreto,Alvenaria,Alvenaria,Laje,Vinílico
+Sala_027,Drywall,Drywall,Drywall,Drywall,Gesso,Porcelanato
+Sala_028,Madeira,Madeira,Alvenaria,Alvenaria,Laje,Cimento Queimado
+Sala_029,Alvenaria,Alvenaria,Concreto,Concreto,Gesso,Cerâmica
+Sala_030,Concreto,Concreto,Concreto,Concreto,Laje,Porcelanato
+Sala_031,Alvenaria,Alvenaria,Alvenaria,Alvenaria,Gesso,Vinílico
+Sala_032,Alvenaria,Drywall,Drywall,Drywall,Laje,Cimento Queimado
+Sala_033,Concreto,Alvenaria,Alvenaria,Alvenaria,Gesso,Porcelanato
+Sala_034,Drywall,Drywall,Drywall,Drywall,Gesso,Cerâmica
+Sala_035,Madeira,Madeira,Alvenaria,Alvenaria,Laje,Vinílico
+Sala_036,Concreto,Concreto,Concreto,Alvenaria,Gesso,Cimento Queimado
+Sala_037,Drywall,Alvenaria,Drywall,Drywall,Gesso,Porcelanato
+Sala_038,Alvenaria,Alvenaria,Alvenaria,Alvenaria,Laje,Cerâmica
+Sala_039,Concreto,Concreto,Drywall,Alvenaria,Gesso,Vinílico
+Sala_040,Drywall,Drywall,Drywall,Drywall,Gesso,Cimento Queimado
+Sala_041,Alvenaria,Alvenaria,Alvenaria,Alvenaria,Laje,Cerâmica
+Sala_042,Madeira,Drywall,Drywall,Drywall,Gesso,Porcelanato
+Sala_043,Concreto,Concreto,Concreto,Concreto,Laje,Vinílico
+Sala_044,Drywall,Drywall,Alvenaria,Drywall,Gesso,Cimento Queimado
+Sala_045,Alvenaria,Alvenaria,Madeira,Madeira,Gesso,Cerâmica
+Sala_046,Concreto,Alvenaria,Drywall,Drywall,Laje,Porcelanato
+Sala_047,Drywall,Drywall,Drywall,Drywall,Gesso,Vinílico
+Sala_048,Alvenaria,Alvenaria,Alvenaria,Alvenaria,Gesso,Cimento Queimado
+Sala_049,Madeira,Madeira,Madeira,Madeira,Laje,Cerâmica
+Sala_050,Concreto,Drywall,Alvenaria,Alvenaria,Gesso,Porcelanato
