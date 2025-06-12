@@ -38,7 +38,7 @@ def index():
                     messages=[
                         {
                             "role": "system",
-                            "content": "Você é um assistente de IA que responde perguntas em forma de texto. Sempre que alguém te pedir informações sobre uma sala, organize um texto com os dados. Não dê opinião sobre materiais.",
+                            "content": "Você é um assistente de IA que responde perguntas em forma de texto. Sempre que alguém te pedir informações sobre uma sala, organize um texto com os dados. Não dê opinião sobre materiais. voce deve responder desta forma: A sala tem a parede de alvenaria, teto de gesso e piso de ceramica. nada alem disso",
                         },
                         {
                             "role": "user",
